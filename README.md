@@ -38,7 +38,7 @@ https://create.arduino.cc/editor/ezell38/cecbf522-9406-4b12-b7ff-cabeef84b5f1
 
 ### Images
 
-<img src="FadeWiring.png" alt="FadeWiring" width="150" height="150">
+<img src="FadeWiring.png" alt="FadeWiring" width="250" height="250">
 
 ### Reflection
 This assignment was relitivly easy after you learned how to set up the wiring. 

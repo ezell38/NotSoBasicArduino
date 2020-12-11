@@ -12,29 +12,36 @@
 ## LED_Fade
 
 ### Description & Code
-Description goes here
+Making a LED fade in and out for LED blink revisited assignment
 
-Here's how you make code look like code:
+### Code
 
-```C++
-  analogWrite(led, brightness);
+ pinMode(led, OUTPUT);
+}
+// the loop routine runs over and over again forever:
+void loop() {
+ // set the brightness of pin 9:
+ analogWrite(led, brightness);
+ // change the brightness for next time through the loop:
+ brightness = brightness + fadeAmount;
+ // reverse the direction of the fading at the ends of the fade:
+ if (brightness == 0 || brightness == 255) {
+ fadeAmount = -fadeAmount ;
+ }
+ // wait for 30 milliseconds to see the dimming effect
+ delay(30);      
 
-  // change the brightness for next time through the loop:
-  brightness = brightness + fadeAmount;
-
-  // reverse the direction of the fading at the ends of the fade:
-  if (brightness <= 0 || brightness >= 255) {
-    fadeAmount = -fadeAmount;
-  }
-```
-Talk about how the fade works, here....
+I used the code that was already in the arduino examples and then used the wiring from the sparkfun blink tutorial. 
 
 ### Evidence
-[LED Fade on Arduino Create](https://create.arduino.cc/editor/helmstk1/9e044cca-43d7-4d93-885f-e6dec5b4f769/preview)
+https://create.arduino.cc/editor/ezell38/cecbf522-9406-4b12-b7ff-cabeef84b5f1
 
 ### Images
 
+
+
 ### Reflection
+This assignment was relitivly easy after you learned how to set up the wiring. 
 
 ## HelloFunctions
 

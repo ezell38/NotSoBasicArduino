@@ -41,7 +41,7 @@ https://create.arduino.cc/editor/ezell38/cecbf522-9406-4b12-b7ff-cabeef84b5f1
 
 ### Images
 
-<img src="FadeWiring.png" alt="FadeWiring" width="250" height="250">
+<img src="FadeWiring.png" alt="FadeWiring" width="350" height="350">
 
 ### Reflection
 This assignment was relitivly easy after you learned how to set up the wiring. 
@@ -122,7 +122,7 @@ void servo_stop() {
 }
 
 ```
-Talk about how the code works, here....
+I used the void functions to wrap all of the necessary code into one void loop function.  
 
 ### Evidence
 https://create.arduino.cc/editor/ezell38/ee2733bd-ac8c-49ce-8c87-5278d0f3fe3d
@@ -131,6 +131,8 @@ https://create.arduino.cc/editor/ezell38/ee2733bd-ac8c-49ce-8c87-5278d0f3fe3d
 <img src="Hello_functions.png" alt="Hello_functions" width="350" height="350">
 
 ### Reflection
+
+I learned how to make different functions go together using void loop and if then statements - https://cvilleschools.instructure.com/courses/31063/assignments/301855?module_item_id=1021897
 
 ## NewPing
 

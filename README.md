@@ -16,6 +16,7 @@ Making a LED fade in and out for LED blink revisited assignment
 
 ### Code
 
+```C++ 
  pinMode(led, OUTPUT);
 }
 // the loop routine runs over and over again forever:
@@ -30,6 +31,8 @@ void loop() {
  }
  // wait for 30 milliseconds to see the dimming effect
  delay(30);      
+
+```
 
 I used the code that was already in the arduino examples and then used the wiring from the sparkfun blink tutorial. 
 
@@ -125,7 +128,7 @@ Talk about how the code works, here....
 https://create.arduino.cc/editor/ezell38/ee2733bd-ac8c-49ce-8c87-5278d0f3fe3d
 
 ### Images
-draw it yourself, take a picture, make a fritzing, whatever you want to EFFECTIVELY communicate how its put together.
+<img src="Hello_functions.png" alt="Hello_functions" width="250" height="250">
 
 ### Reflection
 

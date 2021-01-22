@@ -128,7 +128,7 @@ Talk about how the code works, here....
 https://create.arduino.cc/editor/ezell38/ee2733bd-ac8c-49ce-8c87-5278d0f3fe3d
 
 ### Images
-<img src="Hello_functions.png" alt="Hello_functions" width="250" height="250">
+<img src="Hello_functions.png" alt="Hello_functions" width="350" height="350">
 
 ### Reflection
 
